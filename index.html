@@ -30,41 +30,41 @@
       <div class="logo">
         <span>Captcha</span>
       </div>
-      <div></div>
+      <div class="theme">
+        <img src="./Asset/Icons/moon.png" alt="moon" class="icon" />
+      </div>
     </header>
     <main>
-      <div class="login-form">
+      <section class="login-form">
         <form action="#" method="post">
-          <h1 class="form-title">Login</h1>
+          <h1>Login</h1>
           <div class="form-field">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" name="email" id="email" class="form-input" />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
           </div>
           <div class="form-field">
-            <label for="password" class="form-label">Password</label>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="captcha-preview">
+            <span class="captcha"></span>
+            <button class="reload-btn"><i class="fas fa-redo-alt"></i></button>
+          </div>
+          <div class="input-area form-field">
             <input
-              type="password"
-              name="password"
-              id="password"
-              class="form-input"
+              type="text"
+              maxlength="6"
+              placeholder="Enter Captcha"
+              required
             />
           </div>
-          <div id="captcha-container" class="form-field">
-            <div class="preview"></div>
-            <div class="captcha">
-              <label for="captcha">Enter Captcha</label>
-              <input type="text" name="captcha" id="captcha" />
-              <button class="captcha-refresh">
-                <i class="fa fa-refresh" aria-hidden="true"></i>
-              </button>
-            </div>
-          </div>
-          <input type="submit" value="Login" class="form-button" />
+          <button class="check-btn">Login</button>
+          <div class="status-text"></div>
         </form>
-      </div>
+      </section>
     </main>
     <footer>
-      <p>Made with ❤️</p>
+      <p>Made with ❤️ Charan</p>
     </footer>
 
     <!-- Script -->
