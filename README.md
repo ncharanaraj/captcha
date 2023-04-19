@@ -24,7 +24,7 @@ Objective: To develop a user-friendly and secure client-side captcha for a sign-
 
 Approach:
 
-Developed a custom captcha module that generates random characters and images.
+Developed a custom captcha module that generates random characters.
 Implemented a validation mechanism that checks if the user input matches the generated captcha.
 Designed a responsive and mobile-friendly user interface that adapts to different screen sizes.
 Added meta tags for link previews and optimized the webpage for better SEO performance.
