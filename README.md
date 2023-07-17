@@ -19,7 +19,7 @@ Goo-to-have:
 Developed a client-side CAPTCHA functionality from scratch using vanilla JavaScript, without the use of pre-built
 libraries. Added meta tags for link previews and implemented a dark mode feature to improve user experience.
 
-## Technologies Used:
+## 🛠️ Technologies Used:
 
 HTML/CSS for UI design and layout. Vanilla JavaScript for implementing captcha generation, validation, and user interaction. Git for version control and collaboration. Netlify for hosting and deployment.
 
